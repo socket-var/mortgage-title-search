@@ -7,7 +7,7 @@
     "server": "node ./bin/www",
     "dev-server": "nodemon ./bin/www",
     "client": "cd client && npm start",
-    "dev-start": "set NODE_ENV=development&set DEBUG=ask:server:*&concurrently --kill-others \"npm run dev-server\" \"npm run client\""
+    "dev-start": "set NODE_ENV=development&set DEBUG=blockchain-market:*&concurrently --kill-others \"npm run dev-server\" \"npm run client\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

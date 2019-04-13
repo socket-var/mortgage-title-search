@@ -92,6 +92,7 @@ const LoginPage = ({ classes, errorMessage, onInputChange, onSubmit }) => {
             variant="contained"
             color="primary"
             className={classes.submit}
+            style={{ background: "#009688" }}
           >
             Sign in
           </Button>

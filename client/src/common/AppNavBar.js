@@ -60,7 +60,7 @@ class AppNavBar extends React.Component {
 
     return (
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="static" style={{ background: "#009688" }}>
           <Toolbar
             className={
               isUserLoggedIn || isAdminLoggedIn || isApproverLoggedIn
@@ -75,7 +75,7 @@ class AppNavBar extends React.Component {
               to="/"
               component={Link}
             >
-              TitleSearch
+              M&amp;T Bank
             </Typography>
 
             {!(isAdminLoggedIn || isUserLoggedIn || isApproverLoggedIn) && (

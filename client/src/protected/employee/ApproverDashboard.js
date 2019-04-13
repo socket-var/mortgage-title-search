@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { getBCData } from "../../redux/actions";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 const styles = theme => ({
   main: {
     width: "auto",
@@ -16,6 +17,10 @@ const styles = theme => ({
       marginLeft: "auto",
       marginRight: "auto"
     }
+  },
+  submit: {
+    marginTop: theme.spacing.unit * 3,
+    width: "100px !important"
   },
   paper: {
     marginTop: theme.spacing.unit * 8,
@@ -49,9 +54,17 @@ const ApproverDashboard = ({ buyerRecords, getStatus, classes }) => {
             Victor Stachura -> Dave Salmoni
           </Typography>
           <Typography component="p">{record.property_name}</Typography>
-          <button type="submit" onClick={getStatus}>
-            Get status
-          </button>
+          <Button
+            type="submit"
+            fullWidth
+            variant="contained"
+            color="primary"
+            className={classes.submit}
+            style={{ background: "#009688" }}
+            onClick={getStatus}
+          >
+            Get Status
+          </Button>
         </Paper>
       </div>
     ));

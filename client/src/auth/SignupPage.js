@@ -44,7 +44,13 @@ const styles = theme => ({
   }
 });
 
-const SignupPage = ({ classes, onInputChange, onSubmit }) => {
+const SignupPage = ({
+  classes,
+  errorMessage,
+  onInputChange,
+  onCheckStateChange,
+  onSubmit
+}) => {
   return (
     <React.Fragment>
       <main className={classes.main}>
@@ -56,9 +62,8 @@ const SignupPage = ({ classes, onInputChange, onSubmit }) => {
           <Typography component="h1" variant="h5">
             Sign Up
           </Typography>
-          {/* <div style={{ color: "red" }}>{errorMessage}</div> */}
           <form className={classes.form} onSubmit={onSubmit}>
-            <FormControl margin="normal" required fullWidth>
+            {/* <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="accountAddressField">
                 Ethereum Account Address
               </InputLabel>
@@ -70,16 +75,7 @@ const SignupPage = ({ classes, onInputChange, onSubmit }) => {
                 onChange={onInputChange}
               />
             </FormControl>
-            <FormControl margin="normal" required fullWidth>
-              <InputLabel htmlFor="passwordField">Private key</InputLabel>
-              <Input
-                name="privateKeyField"
-                type="password"
-                id="privateKeyField"
-                autoComplete="privateKey"
-                onChange={onInputChange}
-              />
-            </FormControl>
+             */}
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="emailField">Email Address</InputLabel>
               <Input
@@ -113,7 +109,6 @@ const SignupPage = ({ classes, onInputChange, onSubmit }) => {
                 onChange={onInputChange}
               />
             </FormControl>
-
             <div>
               <a href="/auth/login">Already Registered? Login</a>
             </div>

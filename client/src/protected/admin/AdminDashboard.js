@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const UserDashboard = props => {
+const AdminDashboard = props => {
   return <div>This is the Admin dashboard</div>;
 };
 
-UserDashboard.propTypes = {};
+AdminDashboard.propTypes = {};
 
-export default UserDashboard;
+export default AdminDashboard;

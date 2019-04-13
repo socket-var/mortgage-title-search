@@ -1,18 +1,15 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { registerUser } from "../redux/actions";
+import { registerUser, loginUser } from "../redux/actions";
 import SignupPage from "./SignupPage";
 import LoginPage from "./LoginPage";
 import { Route, Switch, Redirect } from "react-router-dom";
-import axios from "axios";
 
 class Auth extends Component {
   state = {
     emailField: "",
     passwordField: "",
-    confirmPasswordField: "",
-    accountAddressField: "",
-    privateKeyField: ""
+    confirmPasswordField: ""
   };
 
   onInputChange = evt => {
@@ -22,22 +19,10 @@ class Auth extends Component {
   };
 
   signupHandler = evt => {
-    const {
-      emailField,
-      passwordField,
-      confirmPasswordField,
-      privateKeyField,
-      accountAddressField
-    } = this.state;
+    const { emailField, passwordField, confirmPasswordField } = this.state;
 
     evt.preventDefault();
-    this.props.registerUser(
-      accountAddressField,
-      emailField,
-      passwordField,
-      confirmPasswordField,
-      privateKeyField
-    );
+    this.props.registerUser(emailField, passwordField, confirmPasswordField);
   };
 
   loginHandler = evt => {
@@ -116,12 +101,18 @@ class Auth extends Component {
   // }
 
   render() {
-    const { match, isLoggedIn, isAdminLoggedIn } = this.props;
+    const {
+      match,
+      isUserLoggedIn,
+      isAdminLoggedIn,
+      isApproverLoggedIn
+    } = this.props;
 
     return (
       <Switch>
-        {isLoggedIn ? <Redirect to="/user/dashboard" /> : ""}
+        {isUserLoggedIn ? <Redirect to="/user/dashboard" /> : ""}
         {isAdminLoggedIn ? <Redirect to="/admin/dashboard" /> : ""}
+        {isApproverLoggedIn ? <Redirect to="/employee/dashboard" /> : ""}
         {/* TODO: if logged in redirect to dashboard */}
         <Route
           path={`${match.path}/register`}
@@ -151,36 +142,17 @@ class Auth extends Component {
 }
 
 const mapStateToProps = state => ({
-  isLoggedIn: state.auth.isLoggedIn
+  isUserLoggedIn: state.auth.isUserLoggedIn,
+  isAdminLoggedIn: state.auth.isAdminLoggedIn,
+  isApproverLoggedIn: state.auth.isApproverLoggedIn
 });
 
 const mapDispatchToProps = {
-  registerUser
+  registerUser,
+  loginUser
 };
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(Auth);
-
-// renderAuthPage(AuthPage, authHandler) {
-//   return props => {
-//     // if (!(isLoggedIn || isAdminLoggedIn)) {
-//     return (
-//       <AuthPage
-//         {...props}
-//         onSubmit={authHandler}
-//         onInputChange={this.onInputChange}
-//       />
-//     );
-//     // } else {
-//     //   if (isLoggedIn) {
-//     //     return <Redirect to="/user" />;
-//     //   }
-
-//     //   if (isAdminLoggedIn) {
-//     //     return <Redirect to="/admin" />;
-//     //   }
-//     // }
-//   };
-// }

@@ -1,0 +1,208 @@
+owner,tax_year,taxes_received,amount
+Peter Hershey,1813,Y, $50 
+Peter Hershey,1814,Y, $55 
+Peter Hershey,1815,Y, $60 
+Peter Hershey,1816,y, $65 
+Peter Hershey,1817,y, $70 
+Peter Hershey,1818,Y, $75 
+Magdalena Hershey,1819,Y, $80 
+Magdalena Hershey,1820,Y, $85 
+Magdalena Hershey,1821,Y, $90 
+Magdalena Hershey,1822,Y, $95 
+Magdalena Hershey,1823,Y, $100 
+Magdalena Hershey,1824,Y, $105 
+Magdalena Hershey,1825,Y, $110 
+Magdalena Hershey,1826,Y, $115 
+Magdalena Hershey,1827,Y, $120 
+Magdalena Hershey,1828,Y, $125 
+Magdalena Hershey,1829,Y, $130 
+Anthony Fornes,1830,Y, $135 
+Anthony Fornes,1831,Y, $140 
+Anthony Fornes,1832,Y, $145 
+Anthony Fornes,1833,Y, $150 
+Anthony Fornes,1834,Y, $155 
+Anthony Fornes,1835,Y, $160 
+Anthony Fornes,1836,Y, $165 
+John Furnes,1837,Y, $170 
+Anthony Fornes,1838,Y, $175 
+Anthony Fornes,1839,Y, $180 
+Anthony Fornes,1840,Y, $185 
+Anthony Fornes,1841,Y, $190 
+Anthony Fornes,1842,Y, $195 
+Anthony Fornes,1843,Y, $200 
+Anthony Fornes,1844,Y, $205 
+John Furnes,1845,Y, $210 
+John Furnes,1846,Y, $215 
+George F. Richard,1847,Y, $220 
+George F. Richard,1848,Y, $225 
+George F. Richard,1849,Y, $230 
+George F. Richard,1850,Y, $235 
+George F. Richard,1851,Y, $240 
+Dominique Daybach,1852,Y, $245 
+John Saltzmann,1853,Y, $250 
+Christian Witmeier,1854,Y, $255 
+Christian Witmeier,1855,Y, $260 
+Christian Witmeier,1856,Y, $265 
+William Gigging,1857,N, $270 
+Buffalo Savings Bank,1858,N, $275 
+Buffalo Savings Bank,1859,N, $280 
+Buffalo Savings Bank,1860,N, $285 
+Olivia Warriner,1861,Y, $290 
+Olivia Warriner,1862,Y, $295 
+Olivia Warriner,1863,Y, $300 
+Olivia Warriner,1864,Y, $305 
+Olivia Warriner,1865,Y, $310 
+Olivia Warriner,1866,Y, $315 
+Olivia Warriner,1867,Y, $320 
+Olivia Warriner,1868,Y, $325 
+Olivia Warriner,1869,Y, $330 
+Olivia Warriner,1870,Y, $335 
+Olivia Warriner,1871,Y, $340 
+Olivia Warriner,1872,Y, $345 
+Olivia Warriner,1873,Y, $350 
+Alexander Dimond,1874,Y, $355 
+Alexander Dimond,1875,Y, $360 
+Alexander Dimond,1876,Y, $365 
+Alexander Dimond,1877,Y, $370 
+Alexander Dimond,1878,Y, $375 
+Alexander Dimond,1879,Y, $380 
+Alexander Dimond,1880,Y, $385 
+Alexander Dimond,1881,Y, $390 
+Alexander Dimond,1882,Y, $395 
+Alexander Dimond,1883,Y, $400 
+Alexander Dimond,1884,Y, $405 
+Alexander Dimond,1885,Y, $410 
+Alexander Dimond,1886,Y, $415 
+Charles Berryman,1887,Y, $420 
+Charles Berryman,1888,Y, $425 
+Charles Berryman,1889,Y, $430 
+Charles Berryman,1890,Y, $435 
+Charles Berryman,1891,Y, $440 
+Charles Berryman,1892,Y, $445 
+Charles Berryman,1893,Y, $450 
+Charles Berryman,1894,Y, $455 
+Charles Berryman,1895,Y, $460 
+Charles Berryman,1896,Y, $465 
+Charles Berryman,1897,Y, $470 
+Charles Berryman,1898,Y, $475 
+Charles Berryman,1899,Y, $480 
+Charles Berryman,1900,Y, $485 
+Charles Berryman,1901,Y, $490 
+Charles Berryman,1902,Y, $495 
+Charles Berryman,1903,Y, $500 
+Charles Berryman,1904,Y, $505 
+Charles Berryman,1905,Y, $510 
+Charles Berryman,1906,Y, $515 
+Charles Berryman,1907,Y, $520 
+Charles Berryman,1908,Y, $525 
+John Berryman,1909,Y, $530 
+John Berryman,1910,Y, $535 
+John Berryman,1911,Y, $540 
+John Berryman,1912,Y, $545 
+John Berryman,1913,Y, $550 
+John Berryman,1914,Y, $555 
+John Berryman,1915,Y, $560 
+John Berryman,1916,Y, $565 
+John Berryman,1917,Y, $570 
+John Berryman,1918,Y, $575 
+John Berryman,1919,Y, $580 
+John Berryman,1920,Y, $585 
+John Berryman,1921,Y, $590 
+John Berryman,1922,Y, $595 
+John Berryman,1923,Y, $600 
+John Berryman,1924,Y, $605 
+Grace Brady,1925,Y, $610 
+Grace Brady,1926,Y, $615 
+Grace Brady,1927,Y, $620 
+Grace Brady,1928,Y, $625 
+Grace Brady,1929,Y, $630 
+Grace Brady,1930,Y, $635 
+Grace Brady,1931,Y, $640 
+Grace Brady,1932,Y, $645 
+Grace Brady,1933,Y, $650 
+Grace Brady,1934,Y, $655 
+Grace Brady,1935,Y, $660 
+Grace Brady,1936,Y, $665 
+Grace Brady,1937,Y, $670 
+Grace Brady,1938,Y, $675 
+Grace Brady,1939,Y, $680 
+Grace Brady,1940,Y, $685 
+Grace Brady,1941,Y, $690 
+Grace Brady,1942,Y, $695 
+Grace Brady,1943,Y, $700 
+Grace Brady,1944,Y, $705 
+Grace Brady,1945,Y, $710 
+Neil Weber,1946,Y, $715 
+Neil Weber,1947,Y, $720 
+Neil Weber,1948,Y, $725 
+Neil Weber,1949,Y, $730 
+Charles Fink,1950,Y, $735 
+Charles Fink,1951,Y, $740 
+Charles Fink,1952,Y, $745 
+Charles Fink,1953,Y, $750 
+Charles Fink,1954,Y, $755 
+Charles Fink,1955,Y, $760 
+Charles Fink,1956,Y, $765 
+Charles Fink,1957,Y, $770 
+Charles Fink,1958,Y, $775 
+Charles Fink,1959,Y, $780 
+Charles Fink,1960,Y, $785 
+Charles Fink,1961,Y, $790 
+Charles Fink,1962,Y, $795 
+Charles Fink,1963,Y, $800 
+Charles Fink,1964,Y, $805 
+Charles Fink,1965,Y, $810 
+Charles Fink,1966,Y, $815 
+Charles Fink,1967,Y, $820 
+Albery Mayer,1968,Y, $825 
+Albery Mayer,1969,Y, $830 
+John Littlefield,1970,Y, $835 
+John Littlefield,1971,Y, $840 
+John Littlefield,1972,Y, $845 
+John Littlefield,1973,Y, $850 
+John Littlefield,1974,Y, $855 
+John Littlefield,1975,Y, $860 
+John Littlefield,1976,Y, $865 
+John Littlefield,1977,Y, $870 
+John Littlefield,1978,Y, $875 
+John Littlefield,1979,Y, $880 
+John Littlefield,1980,Y, $885 
+John Littlefield,1981,Y, $890 
+John Littlefield,1982,Y, $895 
+John Littlefield,1983,Y, $900 
+Richard Tobaz,1984,Y, $905 
+Victor Stachura,1985,Y, $910 
+Victor Stachura,1986,Y, $915 
+Victor Stachura,1987,Y, $920 
+Victor Stachura,1988,Y, $925 
+Victor Stachura,1989,Y, $930 
+Victor Stachura,1990,Y, $935 
+Victor Stachura,1991,Y, $940 
+Victor Stachura,1992,Y, $945 
+Victor Stachura,1993,Y, $950 
+Victor Stachura,1994,Y, $955 
+Victor Stachura,1995,Y, $960 
+Victor Stachura,1996,Y, $965 
+Victor Stachura,1997,Y, $970 
+Victor Stachura,1998,Y, $975 
+Victor Stachura,1999,Y, $980 
+Victor Stachura,2000,Y, $985 
+Victor Stachura,2001,Y, $990 
+Victor Stachura,2002,Y, $995 
+Victor Stachura,2003,Y," $1,000 "
+Victor Stachura,2004,Y," $1,005 "
+Victor Stachura,2005,Y," $1,010 "
+Victor Stachura,2006,Y," $1,015 "
+Victor Stachura,2007,Y," $1,020 "
+Victor Stachura,2008,Y," $1,025 "
+Victor Stachura,2009,Y," $1,030 "
+Victor Stachura,2010,Y," $1,035 "
+Victor Stachura,2011,Y," $1,040 "
+Victor Stachura,2012,Y," $1,045 "
+Victor Stachura,2013,Y," $1,050 "
+Victor Stachura,2014,Y," $1,055 "
+Victor Stachura,2015,Y," $1,060 "
+Victor Stachura,2016,Y," $1,065 "
+Victor Stachura,2017,Y," $1,070 "
+Victor Stachura,2018,Y," $1,075 "
+Victor Stachura,2019,Y," $1,080 "

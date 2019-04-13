@@ -1,0 +1,58 @@
+seller,buyer,date,transaction_type,price 
+William Willink,Peter Hershey,"August 13, 1813",Inheritance, $ -   
+Peter Hershey,Magdalena Hershey,"June 24, 1819",Will, $ -   
+Joseph Hershey,,,,
+Magdalean Hershey,Anthony Fornes,"July 22, 1830",Sale," $ 2,980 "
+Anthony Fornes,John Furnes,"Feb 6, 1837",Sale," $ 1,381 "
+Anthony Fornes,Florenze Furnes,"Feb 6, 1837",Sale," $ 1,384 "
+Florenze Furnes,,,,
+Magdalena,John Forness,"June 4, 1845",Sale, $ 330 
+,,,,
+,,,,
+John Forness,,,,
+Rosena,George F. Richard,"July 16, 1847",Sale," $ 1,800 "
+George F. Richard,Dominique Daybach,,,
+Aloyus Scherb,,,,
+John Saltzmann,"June 30, 1853",Sale," $ 2,457 ",
+Dominique Daybach,,,,
+Aloyus Scherb,,,,
+John Saltzmann,George Monnier,"June 30, 1853",Mortgage," $ 2,257 "
+George Monnier,John Bliss,"August 18, 1855",Mortgage,-
+Dominique Daybach,,,,
+Aloyus Scherb,,,,
+,John Saltzmann,"Nov 2, 1853",Sale," $ 1,600 "
+John Saltzmann,,,,
+Helena,Christian Witmeier,"March 15, 1854",Sale," $ 2,652 "
+Christian Witmeier,William Gigging,"Jan 34, 1857",Sale," $ 2,730 "
+,,,,
+"Orin Lockwood, Sheriff",William Gigging,"May 20, 1857",Foreclosure," $ 2,246 "
+William Gigging,Buffalo Savings Bank,"Nov 23, 1858",Foreclosure, $ 800 
+William Gigging,Elisabeth Gigging,"April, 1859",Mortgage," $ 1,200 "
+Elisabeth Gigging,Hugh Webster ,,,
+Daniel Webster,June 1859,Mortgage," $ 1,200 ",
+William Gigging,Goodwin Stoddard,April 1859,Mortgage, $ 490 
+William Gigging,,,,
+Elizabeth Giffing,,,,
+Hugh Webster,,,,
+Daniel Webster,,,,
+Goodwin Stoddard,Buffalo Savings Bank,March 1860,Foreclosure, $ 800 
+"Gustavus Scroggs, Sheriff",Hugh Webster ,,,
+Daniel Webster,September 1860,sale," $ 1,022 ",
+Hugh Webster,Olivia Warriner,September 1861,sale," $ 1,550 "
+Olivia Warriner,Alexander Dimond,October 1874,sale," $ 6,500 "
+Alexander Dimond,Charles Berryman,April 1887,Sale," $ 8,000 "
+Charles Berryman,John Berryman,Oct-09,will, - 
+John Berryman,"Buffalo Suburban Estates, inc.",Oct-14,Sale, $ 800 
+"Buffalo Suburban Estates, inc.",John Berryman,Aug-15,Mortgage," $ 24,823 "
+"Buffalo Suburban Estates, inc.",John Berryman,Nov-18,Foreclosure," $ 20,000 "
+John Berryman,Ella Langerman,Jun-25,Sale, $ 1 
+Ella Langerman,Jean Renwick,Jun-25,Sale, $ 1 
+Jean Renwick,Grace Brady,Jul-25,Sale, $ 1 
+Grace Brady,County of Erie,Apr-38,Tax Sale, $ 700 
+County of Erie,Neil Weber,May-46,Sale," $ 5,000 "
+Neil Weber,Justus Kulp,Jan-50,Sale," $ 2,000 "
+Justus Kulp,Charles Fink,Jan-50,Sale, $ 1 
+Charles Fink,Albery Mayer,Jan-68,Sale," $ 2,000 "
+Albery Mayer,John Littlefield,Sep-70,Sale," $ 18,400 "
+John Littlefield,Richard Tobaz,Jan-84,Sale," $ 34,000 "
+Richard Tobaz,Victor Stachura,May-85,Sale," $ 36,000 "

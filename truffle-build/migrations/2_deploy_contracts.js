@@ -9,7 +9,7 @@ module.exports = function(deployer, network) {
   } else {
     /* if deployed on ganache */
     deployer.deploy(TitleSearch, {
-      from: "0x629a11628711b02e350837Ca7F642140300fb1B3"
+      from: "0xc9c91A5217D54392543cF32CB9A1BcCdaD3a0040"
     });
   }
 };

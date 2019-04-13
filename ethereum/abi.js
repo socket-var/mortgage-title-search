@@ -1,24 +1,49 @@
 module.exports = [
   {
+    inputs: [],
+    payable: true,
+    stateMutability: "payable",
+    type: "constructor",
+    signature: "constructor"
+  },
+  {
     anonymous: false,
     inputs: [
       {
-        indexed: false,
-        name: "text",
+        indexed: true,
+        name: "event_id",
         type: "bytes32"
+      },
+      {
+        indexed: true,
+        name: "db_type",
+        type: "bytes32"
+      },
+      {
+        indexed: false,
+        name: "record",
+        type: "string"
       }
     ],
     name: "AddedRecord",
     type: "event",
     signature:
-      "0x7dfc57a9525538776c977cb1e9851c5be5b9e0a6bafd9fbf3ca94ee6d4dd42e2"
+      "0xae537f43da1005ff59eb7daa9d102d12d89879cb4a52284e45da3880872de05a"
   },
   {
     constant: false,
     inputs: [
       {
-        name: "bar",
+        name: "unique_id",
         type: "bytes32"
+      },
+      {
+        name: "db_name",
+        type: "bytes32"
+      },
+      {
+        name: "record",
+        type: "string"
       }
     ],
     name: "addRecord",
@@ -26,6 +51,6 @@ module.exports = [
     payable: false,
     stateMutability: "nonpayable",
     type: "function",
-    signature: "0x571a1d73"
+    signature: "0x23c3b146"
   }
 ];

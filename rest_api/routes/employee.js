@@ -135,7 +135,9 @@ module.exports = function(contract) {
     // const titleData = getTitles(ownerName);
     // const mortgageData = getMortgages(ownerName);
     // const judgementData = getJudgements(ownerName);
-
+    // TODO: check if owner is a buyer in the last record in title database
+    // TODO: check if owner doesnt have cases against him in judgement database
+    // TODO: check if mortgage against the owner
     taxData.map(record => {
       const bool = record.split("~")[2];
       if (bool == "Y") {

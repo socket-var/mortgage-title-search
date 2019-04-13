@@ -51,7 +51,7 @@ const ApproverDashboard = ({ buyerRecords, getStatus, classes }) => {
       <div>
         <Paper className={classes.root} elevation={1}>
           <Typography variant="h5" component="h3">
-            Victor Stachura -> Dave Salmoni
+            {record.buyer} -> {record.seller}
           </Typography>
           <Typography component="p">{record.property_name}</Typography>
           <Button

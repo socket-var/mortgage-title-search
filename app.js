@@ -28,12 +28,14 @@ app.use(express.static(path.join(__dirname, "client", "build")));
 
 // auth route
 const authRouter = require("./rest_api/routes/auth");
+const employeeRouter = require("./rest_api/routes/employee");
 const createContract = require("./ethereum/contract");
 
 const contract = createContract(process.env.CONTRACT_ADDRESS);
 
 // use routes
 app.use("/api/auth", authRouter(contract));
+app.use("/api/employee", employeeRouter(contract));
 
 // needed for Single-page application to reroute to index page
 app.get("*", function(req, res, next) {

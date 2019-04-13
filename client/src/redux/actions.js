@@ -2,7 +2,10 @@ import "./actionTypes";
 import {
   REGISTER_USER_SUCCESS,
   LOGIN_USER_SUCCESS,
-  LOGOUT_USER_SUCCESS
+  LOGOUT_USER_SUCCESS,
+  GET_BC_DATA,
+  GET_BUYER_RECORDS,
+  GET_STATUS
 } from "./actionTypes";
 import axios from "axios";
 
@@ -53,3 +56,37 @@ export const signoutUser = () => ({
   type: LOGOUT_USER_SUCCESS,
   payload: {}
 });
+
+export const getBCData = ownerName => async dispatch => {
+  const result = await axios.post("/api/employee/get_data", {
+    ownerName
+  });
+  console.log(result.data);
+  // TODO: implement error handling
+  dispatch({
+    type: GET_BC_DATA,
+    payload: { data: result.data }
+  });
+};
+
+export const getBuyerRecords = ownerName => async dispatch => {
+  const result = await axios.get("/api/employee/getBuyerRecords");
+  console.log(result.data);
+  // TODO: implement error handling
+  dispatch({
+    type: GET_BUYER_RECORDS,
+    payload: { buyerRecords: result.data }
+  });
+};
+
+export const getStatus = ownerName => async dispatch => {
+  const result = await axios.post("/api/employee/getStatus", {
+    ownerName
+  });
+  console.log(result.data);
+  // TODO: implement error handling
+  dispatch({
+    type: GET_STATUS,
+    payload: { buyerStatus: result.data }
+  });
+};

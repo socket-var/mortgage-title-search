@@ -108,12 +108,20 @@ class Auth extends Component {
       isApproverLoggedIn
     } = this.props;
 
+    let redirect;
+
+    if (isUserLoggedIn) {
+      redirect = <Redirect to="/user/dashboard" />;
+    } else if (isAdminLoggedIn) {
+      redirect = <Redirect to="/admin/dashboard" />;
+    } else if (isApproverLoggedIn) {
+      redirect = <Redirect to="/employee/dashboard" />;
+    }
+
     return (
       <Switch>
-        {isUserLoggedIn ? <Redirect to="/user/dashboard" /> : ""}
-        {isAdminLoggedIn ? <Redirect to="/admin/dashboard" /> : ""}
-        {isApproverLoggedIn ? <Redirect to="/employee/dashboard" /> : ""}
         {/* TODO: if logged in redirect to dashboard */}
+        {redirect}
         <Route
           path={`${match.path}/register`}
           exact

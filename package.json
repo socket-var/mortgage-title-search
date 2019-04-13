@@ -10,6 +10,7 @@
     "dev-start": "set NODE_ENV=development&set DEBUG=blockchain-market:*&concurrently --kill-others \"npm run dev-server\" \"npm run client\""
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
     "concurrently": "^4.1.0",
     "cookie-parser": "~1.4.3",
